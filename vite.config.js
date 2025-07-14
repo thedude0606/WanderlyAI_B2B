@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/WanderlyAI_B2B/",
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
